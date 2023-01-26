@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    border-radius: 5px;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #121214;
+  }
+
+  .container-menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 15px;
+    background-color: #29292e;
+    padding: 10px;
+    height: -webkit-fill-available;
+    padding: 15px 10px 15px 10px ;
+ 
+
+  }
+
+  .logo{
+    text-decoration: none;
+    color: #fff;
+  
+  }
+
+  .logo:hover{
+    color: #633bbc;
+  }
+
+  .menu:hover{
+    color: #fff;
+  }
+
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 15px;
+    margin: 20px 10px;
+    background-color: #29292e;
+    padding: 10px;
+    height: -webkit-fill-available;
+  }
+  
+  .main-video-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+
+  }
+  
+  .main-video-content video {
+    width: 600px;
+  }
+
+  .main-info{
+    color: #fff;
+  }
+  
+  .playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+    max-height: 400px;
+    padding: 2px;
+    background: #29292e;
+    color: #fff;
+  
+  }
+
+   
+  .playlist::-webkit-scrollbar {
+    width: 6px;
+  }
+  .playlist::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #585858
+  }
+  
+  .playlist-video {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border: 1px solid rgb(87, 86, 86);
+    margin-right: 5px;
+    cursor: pointer;
+    }
+  
+  .active {
+    padding: 10px;
+    background-color: #633bbc;
+    color: white;
+  }
+  
+  .playlist-video video{
+    width: 100px;
+  }
+
+  label{ 
+       cursor: pointer;
+    }
+  
+  @media (max-width: 900px) {
+    .container {
+      flex-direction: column;
+      margin-top: 60px;
+      height: -webkit-fill-available;
+    }
+  
+    .container{
+        min-width: 200px;
+        max-width: 350px;
+
+    }
+    .main-video-content video {
+
+      min-width: 200px;
+      max-width: 350px;
+    }
+    .playlist{
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+}
