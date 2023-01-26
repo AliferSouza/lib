@@ -4,7 +4,6 @@ import navigatorTo from "./historyNavigator/navigatorTo.js";
 import atualizarComp from "./DOM/atualizarComp.js";
 import addBanco from "./Banco/addBanco.js";
 import addComponet from "./DOM/addComponet.js";
-import Api from "./requisições/api.js";
 import gerarId from "./ulteis/gerarId.js";
 import backup from "./ulteis/backup.js";
 import dbSetItem from "./banco/dbSetItem.js";
@@ -32,7 +31,6 @@ export {
   dbSetItem,
   atualizarComp,
   addComponet,
-  Api,
   addBanco,
   gerarId,
   backup,
