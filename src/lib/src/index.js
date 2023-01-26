@@ -223,10 +223,6 @@ function backup(props, tipo, textNomeArqDow) {
 }
 
 
-function gerarId() {
-    const id = Math.random().toString(32).substr(2, 9);
-    return id;
-}
 
 function gerarQueryString(props) {
     const texto = JSON.stringify(props);
@@ -246,7 +242,6 @@ export {
     addComponet,
     Api,
     addBanco,
-    gerarId,
     backup,
     erroPage,
     gerarQueryString,
