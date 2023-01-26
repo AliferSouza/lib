@@ -1,3 +1,3 @@
-export default function dbGetItem(props) {
+export default function useGetDb(props) {
     return JSON.parse(window.localStorage.getItem(props));
   }
