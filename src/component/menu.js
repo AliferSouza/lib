@@ -1,5 +1,4 @@
 export default function Menu(props) { 
-    console.log(props)
 return `
 <div class="container-menus">
     <a class="logo" href="#"> LIB-CTX</a>
@@ -10,8 +9,8 @@ return `
        align-items: center;
        gap: 10px">
 
-        <a class="menu" style="text-decoration: none;" data-link href="/home">Home</a>
-        <a class="menu" style="text-decoration: none;" data-link href="/sobre">Sobre</a>
+        <a class="menu" style="text-decoration: none;" data-href="/home">Home</a>
+        <a class="menu" style="text-decoration: none;" data-href="/sobre">Sobre</a>
     </div>
 
     <div style="
@@ -19,9 +18,7 @@ return `
        justify-content: space-between;
        align-items: center;
        gap: 20px">
-        <img style="
-       border-radius: 15px" src="./public/img/user.png" alt="" height="30">
-
+       
         <a href="#">
             <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true"
                 class="octicon octicon-mark-github">

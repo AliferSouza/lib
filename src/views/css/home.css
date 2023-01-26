@@ -38,10 +38,16 @@
   .logo:hover{
     color: #633bbc;
   }
+  
+  .menu{
+    color: #633bbc;
+    cursor: pointer;
+  }
 
   .menu:hover{
-    color: #fff;
+    color: rgb(233, 233, 233);
   }
+
 
   
   .container {
