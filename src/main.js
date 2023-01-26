@@ -1,4 +1,4 @@
-import {Router} from "./lib/src/index.js"
+import {Router} from "./lib/src//index.js"
 import home from "./views/Home.js";
 import sobre from "./views/Sobre.js"
 import Menu from "./component/menu.js";
