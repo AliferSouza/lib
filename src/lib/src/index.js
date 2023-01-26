@@ -1,7 +1,6 @@
 import Alert from "./Notificação/alert.js";
 import autoExecultar from "./Ulteis/autoExecultar.js";
 import navigatorTo from "./historyNavigator/navigatorTo.js";
-import useGetDb from "./banco/useGetDb.js";
 import atualizarComp from "./DOM/atualizarComp.js";
 import addBanco from "./Banco/addBanco.js";
 import addComponet from "./DOM/addComponet.js";
@@ -31,7 +30,6 @@ export {
   autoExecultar,
   navigatorTo,
   dbSetItem,
-  useGetDb,
   atualizarComp,
   addComponet,
   Api,
